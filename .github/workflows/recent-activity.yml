@@ -30,4 +30,4 @@ jobs:
         run: |
           git config --local user.email "lucasantannaeng@gmail.com"
           git config --local user.name "Luca Rodrigues Gomes de Sant'Anna"
-          git diff --quiet README.md || (git commit -am "chore: update recent activity" && git push)
+          git diff --quiet README.md || (git commit -am "chore: update recent activity" && git pull --rebase origin main && git push)
