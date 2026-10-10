@@ -2,7 +2,7 @@ name: Recent Activity
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # Updates every 30 minutes
+    - cron: "*/30 * * * *"  # Updates every 30 minutes
   workflow_dispatch:
 
 permissions:
@@ -14,9 +14,20 @@ jobs:
     name: Update README with Recent Activity
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run Activity Script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 5
+        run: |
+          python scripts/update_activity.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "lucasantannaeng@gmail.com"
+          git config --local user.name "Luca Rodrigues Gomes de Sant'Anna"
+          git diff --quiet README.md || (git commit -am "chore: update recent activity" && git push)
