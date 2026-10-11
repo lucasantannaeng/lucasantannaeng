@@ -78,11 +78,11 @@ luca = {
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed [`7cd2689`](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot/commit/7cd2689af912cf135aef704d298e23b9392a39d8) to [lucasantannaeng/Antigravity-Telegram-Bot](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot) - *feat(daemon): enhance resilience monitoring and apply Dev...*
-2. 🔨 Pushed [`b99a813`](https://github.com/lucasantannaeng/thermal-compliance-suite/commit/b99a81330b9912311a787aa5ee5d4bb7066f8d97) to [lucasantannaeng/thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) - *fix(deps): upgrade jspdf, vitest, and vite to resolve cri...*
-3. 🔨 Pushed [`a0be437`](https://github.com/lucasantannaeng/SolarCad/commit/a0be437f3335799dd81be2f17ace9aee098e8f99) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *fix(deps): upgrade react-router-dom to 7.18.4, jspdf to 4...*
-4. 🔨 Pushed [`3b823ab`](https://github.com/lucasantannaeng/ThermalLoadCalculator/commit/3b823abdd49cbdad191a09f94641568efa849ee8) to [lucasantannaeng/ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) - *fix(deps): upgrade electron to 44.5.0, vite to 8.3.1, vit...*
-5. 🔨 Pushed [`26227b3`](https://github.com/lucasantannaeng/gym-maintenance-platform/commit/26227b3c207752e34ce21e68e8f3736fb8c9ba07) to [lucasantannaeng/gym-maintenance-platform](https://github.com/lucasantannaeng/gym-maintenance-platform) - *fix(deps): upgrade vite to 8.3.1 and plugin-react to 6.1....*
+1. 🔨 Pushed [`966dffc`](https://github.com/lucasantannaeng/lucasantannaeng/commit/966dffc835c6e00d95f99107813b8f8dc5bbb9c1) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *feat: customize recent activity to track real commits and...*
+2. 🔨 Pushed [`0b72156`](https://github.com/lucasantannaeng/SolarBoat-Telemetry/commit/0b72156116ec5528c869a3287547fc23525b6778) to [lucasantannaeng/SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) - *chore(security): apply DevSecOps .gitignore protection rules*
+3. 🔨 Pushed [`ab0367e`](https://github.com/lucasantannaeng/white-label-crm/commit/ab0367e231b75bece4a8c92d76be799ece60a497) to [lucasantannaeng/white-label-crm](https://github.com/lucasantannaeng/white-label-crm) - *chore(security): apply DevSecOps .gitignore protection rules*
+4. 🔨 Pushed [`adcbeb0`](https://github.com/lucasantannaeng/ThermalLoadCalculator/commit/adcbeb0c796aa3db703a77ceb68523a9a498e692) to [lucasantannaeng/ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) - *fix(ci): unignore electron source files and harden strix ...*
+5. 🔨 Pushed [`c2d4a2d`](https://github.com/lucasantannaeng/lucasantannaeng/commit/c2d4a2d566daa1c319c93a614333bf7d5527203c) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *feat: setup dynamic profile presentation README*
 <!--END_SECTION:activity-->
 
 ---
