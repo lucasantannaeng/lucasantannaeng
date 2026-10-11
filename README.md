@@ -78,11 +78,11 @@ luca = {
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed [`966dffc`](https://github.com/lucasantannaeng/lucasantannaeng/commit/966dffc835c6e00d95f99107813b8f8dc5bbb9c1) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *feat: customize recent activity to track real commits and...*
-2. 🔨 Pushed [`0b72156`](https://github.com/lucasantannaeng/SolarBoat-Telemetry/commit/0b72156116ec5528c869a3287547fc23525b6778) to [lucasantannaeng/SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) - *chore(security): apply DevSecOps .gitignore protection rules*
-3. 🔨 Pushed [`ab0367e`](https://github.com/lucasantannaeng/white-label-crm/commit/ab0367e231b75bece4a8c92d76be799ece60a497) to [lucasantannaeng/white-label-crm](https://github.com/lucasantannaeng/white-label-crm) - *chore(security): apply DevSecOps .gitignore protection rules*
-4. 🔨 Pushed [`adcbeb0`](https://github.com/lucasantannaeng/ThermalLoadCalculator/commit/adcbeb0c796aa3db703a77ceb68523a9a498e692) to [lucasantannaeng/ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) - *fix(ci): unignore electron source files and harden strix ...*
-5. 🔨 Pushed [`c2d4a2d`](https://github.com/lucasantannaeng/lucasantannaeng/commit/c2d4a2d566daa1c319c93a614333bf7d5527203c) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *feat: setup dynamic profile presentation README*
+1. 🔨 Pushed [`edf4a51`](https://github.com/lucasantannaeng/lucasantannaeng/commit/edf4a51481bae890629f528ded46c4491b979297) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *chore: refresh recent activity section with latest pushed...*
+2. 🔨 Pushed [`08f5b4b`](https://github.com/lucasantannaeng/lucasantannaeng/commit/08f5b4b9877bcbdf0c0f4fba244142980c5f63ef) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *chore(security): apply DevSecOps .gitignore protection rules*
+3. 🔨 Pushed [`966dffc`](https://github.com/lucasantannaeng/lucasantannaeng/commit/966dffc835c6e00d95f99107813b8f8dc5bbb9c1) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *feat: customize recent activity to track real commits and...*
+4. 🔨 Pushed [`0b72156`](https://github.com/lucasantannaeng/SolarBoat-Telemetry/commit/0b72156116ec5528c869a3287547fc23525b6778) to [lucasantannaeng/SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) - *chore(security): apply DevSecOps .gitignore protection rules*
+5. 🔨 Pushed [`ab0367e`](https://github.com/lucasantannaeng/white-label-crm/commit/ab0367e231b75bece4a8c92d76be799ece60a497) to [lucasantannaeng/white-label-crm](https://github.com/lucasantannaeng/white-label-crm) - *chore(security): apply DevSecOps .gitignore protection rules*
 <!--END_SECTION:activity-->
 
 ---
