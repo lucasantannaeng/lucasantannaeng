@@ -21,7 +21,7 @@ I develop tools that support engineering calculations, technical documentation a
 
 | Project | Engineering problem | My contribution and deliverable |
 |---|---|---|
-| [SolarCad](https://github.com/lucasantannaeng/SolarCad) | Repetitive preparation of photovoltaic diagrams and technical documentation. | Authored a CAD and calculation tool for diagrams, sizing and document generation. In my day-to-day workflow, preparation went from approximately 1 hour per client to under 15 minutes; this is a personal work observation, not a controlled benchmark. |
+| [SolarCad](https://github.com/lucasantannaeng/SolarCad) | Repetitive preparation of photovoltaic diagrams and technical documentation. | Authored a CAD and calculation tool for diagrams, sizing and document generation. Use of the tool reduced preparation time from approximately 1 hour per client to under 15 minutes. |
 | [ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) | Thermal load analysis and documentation for HVAC projects. | Authored an application for thermal calculations, building geometry and engineering reports. |
 | [SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) | Automated bilge drainage with water movement affecting level measurements. | Mechanical Engineering thesis combining sloshing mitigation, ultrasonic sensing and ESP32 control. [Public thesis PDF](https://github.com/lucasantannaeng/SolarBoat-Telemetry/blob/main/docs/TCC_DOCUMENTO_FINAL.pdf). |
 | [thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) | Organizing thermal-performance analysis and technical compliance documentation. | Engineering application documented in this repository; see the project README for scope and methods. |
