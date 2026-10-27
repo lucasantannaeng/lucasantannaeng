@@ -9,20 +9,26 @@
 
 ---
 
-## `> whoami`
+## Mechanical Engineering | Engineering Tools & Industrial Data
 
-```python
-luca = {
-    "name": "Luca Rodrigues Gomes de Sant'Anna",
-    "role": "Mechanical Engineer & AI Software Developer",
-    "focus": "Thermal Engineering, Industrial IoT & Autonomous AI Systems",
-    "motto": "Bridge physical engineering with autonomous intelligence.",
-}
-```
+I am Luca Rodrigues Gomes de Sant’Anna, a Mechanical Engineer from IFF Cabo Frio, registered with CREA-RJ (2026104562). My work combines field operations, materials logistics, mechanical design and engineering analysis.
+
+I develop tools that support engineering calculations, technical documentation and operational decisions. Programming, data analysis and AI are resources I use to solve practical engineering problems.
+
+**Areas of interest:** mechanical engineering, HVAC, maintenance planning, industrial operations and engineering trainee programs.
+
+## Engineering Portfolio
+
+| Project | Engineering problem | My contribution and deliverable |
+|---|---|---|
+| [SolarCad](https://github.com/lucasantannaeng/SolarCad) | Repetitive preparation of photovoltaic diagrams and technical documentation. | Authored a CAD and calculation tool for diagrams, sizing and document generation. In my day-to-day workflow, preparation went from approximately 4 hours to under 15 minutes; this is a personal work observation, not a controlled benchmark. |
+| [ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) | Thermal load analysis and documentation for HVAC projects. | Authored an application for thermal calculations, building geometry and engineering reports. |
+| [SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) | Automated bilge drainage with water movement affecting level measurements. | Mechanical Engineering thesis combining sloshing mitigation, ultrasonic sensing and ESP32 control. [Public thesis PDF](https://github.com/lucasantannaeng/SolarBoat-Telemetry/blob/main/docs/TCC_DOCUMENTO_FINAL.pdf). |
+| [thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) | Organizing thermal-performance analysis and technical compliance documentation. | Engineering application documented in this repository; see the project README for scope and methods. |
 
 ---
 
-## ⚡ Tech Stack
+## Tools for Engineering & Automation
 
 <div align="center">
 
@@ -62,16 +68,6 @@ luca = {
 <img src="https://raw.githubusercontent.com/lucasantannaeng/lucasantannaeng/main/profile-summary-card-output/github_dark/3-stats.svg" />
 
 </div>
-
----
-
-## 🏆 Featured Projects
-
-| Project | Stars | Description |
-|---------|-------|-------------|
-| [**thermal-compliance-suite**](https://github.com/lucasantannaeng/thermal-compliance-suite) | ![Stars](https://img.shields.io/github/stars/lucasantannaeng/thermal-compliance-suite?style=flat&color=f5c542&label=⭐) | Engineering calculation suite for thermal compliance, HVAC loads, and regulatory diagnostics. |
-| [**SolarBoat-Telemetry**](https://github.com/lucasantannaeng/SolarBoat-Telemetry) | ![Stars](https://img.shields.io/github/stars/lucasantannaeng/SolarBoat-Telemetry?style=flat&color=f5c542&label=⭐) | Embedded C++ telemetry, sensor acquisition, and data logging system for solar-powered vessels. |
-| [**Antigravity-Telegram-Bot**](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot) | ![Stars](https://img.shields.io/github/stars/lucasantannaeng/Antigravity-Telegram-Bot?style=flat&color=f5c542&label=⭐) | High-resilience 24/7 Always-On daemon integrating Google Antigravity CLI and Hermes Agent. |
 
 ---
 
