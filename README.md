@@ -74,11 +74,11 @@ I develop tools that support engineering calculations, technical documentation a
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed [`ed97b3d`](https://github.com/lucasantannaeng/FinMaster/commit/ed97b3dd96285032444912c71c3210bba1cf1b67) to [lucasantannaeng/FinMaster](https://github.com/lucasantannaeng/FinMaster) - *chore(security): apply DevSecOps .gitignore protection rules*
-2. 🔨 Pushed [`68a6490`](https://github.com/lucasantannaeng/gym-maintenance-platform/commit/68a6490e8c9dfb625e5f8eefe869d32579d97f04) to [lucasantannaeng/gym-maintenance-platform](https://github.com/lucasantannaeng/gym-maintenance-platform) - *feat: consolidate forensic audit templates, lion presets,...*
-3. 🔨 Pushed [`1ec8ebf`](https://github.com/lucasantannaeng/lucasantannaeng/commit/1ec8ebf7c9c65914f5a8d9b4e1a053835bab3a12) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *ci: ensure pull with rebase before push in recent activit...*
-4. 🔨 Pushed [`a4d008c`](https://github.com/lucasantannaeng/electrical-forensics-platform/commit/a4d008c414a033a3cc3945f36fd31f148de428d8) to [lucasantannaeng/electrical-forensics-platform](https://github.com/lucasantannaeng/electrical-forensics-platform) - *chore(security): apply DevSecOps .gitignore protection rules*
-5. 🔨 Pushed [`ac5ec44`](https://github.com/lucasantannaeng/thermal-compliance-suite/commit/ac5ec443e6ef7a5f492a28093dcf1b6875c4ab24) to [lucasantannaeng/thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) - *docs: standardize README with Shields.io badges and DevSe...*
+1. 🔨 Pushed [`a841a70`](https://github.com/lucasantannaeng/lucasantannaeng/commit/a841a701b567647ac583a86b603dae7092b985f1) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: emphasize mechanical engineering portfolio*
+2. 🔨 Pushed [`ed97b3d`](https://github.com/lucasantannaeng/FinMaster/commit/ed97b3dd96285032444912c71c3210bba1cf1b67) to [lucasantannaeng/FinMaster](https://github.com/lucasantannaeng/FinMaster) - *chore(security): apply DevSecOps .gitignore protection rules*
+3. 🔨 Pushed [`68a6490`](https://github.com/lucasantannaeng/gym-maintenance-platform/commit/68a6490e8c9dfb625e5f8eefe869d32579d97f04) to [lucasantannaeng/gym-maintenance-platform](https://github.com/lucasantannaeng/gym-maintenance-platform) - *feat: consolidate forensic audit templates, lion presets,...*
+4. 🔨 Pushed [`1ec8ebf`](https://github.com/lucasantannaeng/lucasantannaeng/commit/1ec8ebf7c9c65914f5a8d9b4e1a053835bab3a12) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *ci: ensure pull with rebase before push in recent activit...*
+5. 🔨 Pushed [`a4d008c`](https://github.com/lucasantannaeng/electrical-forensics-platform/commit/a4d008c414a033a3cc3945f36fd31f148de428d8) to [lucasantannaeng/electrical-forensics-platform](https://github.com/lucasantannaeng/electrical-forensics-platform) - *chore(security): apply DevSecOps .gitignore protection rules*
 <!--END_SECTION:activity-->
 
 ---
