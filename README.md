@@ -74,11 +74,11 @@ I develop tools that support engineering calculations, technical documentation a
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed [`fb1b270`](https://github.com/lucasantannaeng/electrical-forensics-platform/commit/fb1b270060d16eaef2248239c0216a8bdbe30084) to [lucasantannaeng/electrical-forensics-platform](https://github.com/lucasantannaeng/electrical-forensics-platform) - *chore: ignore codebase-memory directory*
-2. 🔨 Pushed [`6d0679d`](https://github.com/lucasantannaeng/SolarCad/commit/6d0679df803e81fb1b13606dd96f9cab2fad45e6) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *docs: enrich showcase README with visual demonstrations, ...*
-3. 🔨 Pushed [`cb909dd`](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot/commit/cb909dd49de4fce2cb9bd99ea74baf747bf1a9b5) to [lucasantannaeng/Antigravity-Telegram-Bot](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot) - *chore: ignore codebase-memory directory*
-4. 🔨 Pushed [`2ee3325`](https://github.com/lucasantannaeng/lucasantannaeng/commit/2ee332526bb95bde0bc73528ae4be7290b276cc1) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: use impersonal technical wording for SolarCad results*
-5. 🔨 Pushed [`fc6a05d`](https://github.com/lucasantannaeng/ThermalLoadCalculator/commit/fc6a05d8394b48021f013a927fca803c6dcc632f) to [lucasantannaeng/ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) - *feat(compliance): integrate local typography and copyrigh...*
+1. 🔨 Pushed [`a7f734e`](https://github.com/lucasantannaeng/FinMaster/commit/a7f734efa7384536253f996dc9668030196c93ce) to [lucasantannaeng/FinMaster](https://github.com/lucasantannaeng/FinMaster) - *chore: update vite resolve aliases and ignore codebase-me...*
+2. 🔨 Pushed [`a46b2b0`](https://github.com/lucasantannaeng/lucasantannaeng/commit/a46b2b0aeccb9a6b5256f702551da30732345755) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: correct SolarCad preparation time per client*
+3. 🔨 Pushed [`fb1b270`](https://github.com/lucasantannaeng/electrical-forensics-platform/commit/fb1b270060d16eaef2248239c0216a8bdbe30084) to [lucasantannaeng/electrical-forensics-platform](https://github.com/lucasantannaeng/electrical-forensics-platform) - *chore: ignore codebase-memory directory*
+4. 🔨 Pushed [`6d0679d`](https://github.com/lucasantannaeng/SolarCad/commit/6d0679df803e81fb1b13606dd96f9cab2fad45e6) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *docs: enrich showcase README with visual demonstrations, ...*
+5. 🔨 Pushed [`cb909dd`](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot/commit/cb909dd49de4fce2cb9bd99ea74baf747bf1a9b5) to [lucasantannaeng/Antigravity-Telegram-Bot](https://github.com/lucasantannaeng/Antigravity-Telegram-Bot) - *chore: ignore codebase-memory directory*
 <!--END_SECTION:activity-->
 
 ---
