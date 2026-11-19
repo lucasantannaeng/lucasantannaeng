@@ -17,14 +17,17 @@ I develop tools that support engineering calculations, technical documentation a
 
 **Areas of interest:** mechanical engineering, HVAC, maintenance planning, industrial operations and engineering trainee programs.
 
-## Engineering Portfolio
+## Engineering Portfolio & Interactive 3D Teardown Simulators
+
+Interactive 3D Exploded-View Engineering Simulators (Three.js) and production software available in [`index.html`](index.html) and [`simulators/`](simulators/):
 
 | Project | Engineering problem | My contribution and deliverable |
 |---|---|---|
-| [SolarCad](https://github.com/lucasantannaeng/SolarCad) | Repetitive preparation of photovoltaic diagrams and technical documentation. | Authored a CAD and calculation tool for diagrams, sizing and document generation. Use of the tool reduced preparation time from approximately 1 hour per client to under 15 minutes. |
-| [ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) | Thermal load analysis and documentation for HVAC projects. | Authored an application for thermal calculations, building geometry and engineering reports. |
+| [SolarCad](https://github.com/lucasantannaeng/SolarCad) & [`solar-structural-teardown`](simulators/solar-structural-teardown.html) | Repetitive preparation of photovoltaic diagrams, utility access forms, and structural roof wind verification (NBR 6123 / NBR 14762). | Authored a CAD, calculation, and 3D exploded-view structural mounting suite. Reduced complete engineering dossier preparation time from 60 minutes per client to 14 minutes (-76%). |
+| [ThermalLoadCalculator](https://github.com/lucasantannaeng/ThermalLoadCalculator) & [`hvac-pmoc-teardown`](simulators/hvac-pmoc-teardown.html) | Thermal load analysis, psychrometric balance, and PMOC inspection training (Lei 13.589/2018 / NBR 16401). | Authored a 24h thermal load calculator, vector CAD editor, and interactive 3D exploded-view HVAC/PMOC simulator (filter ΔP, Cu/Al coil, condensate pan, Sirocco fan, and Scroll compressor). |
+| [Forensic Engineering Suite](https://github.com/lucasantannaeng/electrical-forensics-platform) & [`forensic-teardown`](simulators/forensic-teardown.html) | Forensic mechanical (NR-12 / ISO 20957) and electrical (IEEE C37.111 / NBR 5410) expert reports under ABNT NBR 13752. | Authored cryptographic forensic report generators paired with an interactive 3D exploded-view simulator for pulley/bearing/wire-rope fatigue and breaker/busbar thermographic hot-spots. |
 | [SolarBoat-Telemetry](https://github.com/lucasantannaeng/SolarBoat-Telemetry) | Automated bilge drainage with water movement affecting level measurements. | Mechanical Engineering thesis combining sloshing mitigation, ultrasonic sensing and ESP32 control. [Public thesis PDF](https://github.com/lucasantannaeng/SolarBoat-Telemetry/blob/main/docs/TCC_DOCUMENTO_FINAL.pdf). |
-| [thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) | Organizing thermal-performance analysis and technical compliance documentation. | Engineering application documented in this repository; see the project README for scope and methods. |
+| [thermal-compliance-suite](https://github.com/lucasantannaeng/thermal-compliance-suite) | Organizing thermal-performance analysis and technical compliance documentation (NBR 15575 / NBR 16401). | Web Worker thermal engine, cryptographic SHA-256 dossier generator, and embedded 3D HVAC/PMOC exploded-view inspection simulator. |
 
 ---
 
@@ -47,7 +50,7 @@ I develop tools that support engineering calculations, technical documentation a
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -60,7 +63,7 @@ I develop tools that support engineering calculations, technical documentation a
 
 ---
 
-## 🕐 When I Code (UTC-3)
+## Coding Schedule (UTC-3)
 
 <div align="center">
 
@@ -71,7 +74,7 @@ I develop tools that support engineering calculations, technical documentation a
 
 ---
 
-## ⚡ Recent Activity
+## Recent Activity
 
 <!--START_SECTION:activity-->
 1. 🔨 Pushed [`49265d7`](https://github.com/lucasantannaeng/SolarCad/commit/49265d79dccf22093cef4884c699cbb2c607defd) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *feat(showcase): add 50s executive demonstration video and...*

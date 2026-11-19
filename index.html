@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eng. Luca Rodrigues · Engenharia Mecânica, Sistemas Térmicos, Perícia e Software</title>
+  <meta name="description" content="Portfólio de Engenharia Mecânica e Software de Luca Rodrigues Gomes de Sant'Anna (CREA-RJ 2026104562): simuladores 3D em vista explodida, HVAC/PMOC, estruturas solares NBR 6123 e perícia NBR 13752." />
+  <style>
+    :root {
+      --bg: #0b0d14;
+      --surface: #11141c;
+      --raised: #1a1e28;
+      --line: rgba(238, 240, 245, 0.08);
+      --fg: #eef0f5;
+      --sec: #a3a9b8;
+      --mute: #7a8296;
+      --accent: #06b6d4;
+      --ok: #4cc38a;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 15px;
+      line-height: 22px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mono, .num {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-variant-numeric: tabular-nums;
+    }
+    .shell {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+    header.nav {
+      height: 64px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(11, 13, 20, 0.92);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(12px);
+    }
+    .nav-inner {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--fg);
+      text-decoration: none;
+    }
+    .brand-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .nav-links a {
+      color: var(--sec);
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 140ms var(--ease);
+    }
+    .nav-links a:hover { color: var(--fg); }
+    .btn {
+      height: 36px;
+      padding: 0 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      border: 1px solid var(--line);
+      background: var(--raised);
+      color: var(--sec);
+      transition: background-color 140ms var(--ease), color 140ms var(--ease), border-color 140ms var(--ease), transform 140ms var(--ease);
+    }
+    .btn:hover { color: var(--fg); border-color: rgba(6, 182, 212, 0.4); }
+    .btn:active { transform: scale(0.98); }
+    .btn.active {
+      color: var(--fg);
+      background: var(--raised);
+      border-color: var(--accent);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    }
+    .btn-primary {
+      height: 44px;
+      padding: 0 20px;
+      background: var(--fg);
+      color: #0b0d14;
+      border-color: transparent;
+    }
+    .btn-primary:hover { background: #ffffff; color: #0b0d14; }
+    .hero {
+      padding: 72px 0 56px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (max-width: 960px) {
+      .hero { grid-template-columns: 1fr; padding: 48px 0; }
+    }
+    .eyebrow {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 48px;
+      line-height: 1.06;
+      font-weight: 500;
+      letter-spacing: -0.025em;
+      margin: 0 0 20px;
+    }
+    .subhead {
+      font-size: 18px;
+      line-height: 28px;
+      color: var(--sec);
+      max-width: 38rem;
+      margin: 0 0 32px;
+    }
+    .cred-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .cred-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+      font-size: 13px;
+    }
+    .cred-row:last-child { border-bottom: 0; }
+    .cred-row span:first-child { color: var(--sec); }
+    .section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .section-head h2 {
+      font-size: 28px;
+      line-height: 1.15;
+      font-weight: 500;
+      margin: 0 0 8px;
+    }
+    .section-head p {
+      font-size: 15px;
+      color: var(--sec);
+      margin: 0;
+      max-width: 65ch;
+    }
+    .sim-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .sim-box {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 8px;
+    }
+    .sim-iframe {
+      width: 100%;
+      height: 680px;
+      border: 0;
+      border-radius: 8px;
+      display: block;
+      background: var(--bg);
+    }
+    table.portfolio-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    table.portfolio-table th {
+      text-align: left;
+      font-weight: 500;
+      color: var(--sec);
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--line);
+      background: var(--raised);
+    }
+    table.portfolio-table th.num, table.portfolio-table td.num { text-align: right; }
+    table.portfolio-table td {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--line);
+      color: var(--fg);
+      vertical-align: top;
+    }
+    table.portfolio-table tr:hover td { background: var(--raised); }
+    footer {
+      padding: 40px 0;
+      font-size: 13px;
+      color: var(--mute);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="shell nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-dot"></span>
+        <span>Luca Rodrigues Gomes de Sant'Anna</span>
+        <span class="mono" style="font-size:12px;color:var(--mute)">Eng. Mecânico · CREA-RJ 2026104562</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#laboratorio-3d">Simuladores 3D Teardown</a>
+        <a href="#projetos">Sistemas e Laudos</a>
+        <a href="https://github.com/lucasantannaeng" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/lucasantannaeng" target="_blank" rel="noreferrer" class="btn">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">ENGENHARIA MECÂNICA · SISTEMAS TÉRMICOS HVAC/PMOC · PERÍCIA NBR 13752 · SOFTWARE</div>
+        <h1>Engenharia mecânica aplicada, simuladores 3D interativos e automação normativa</h1>
+        <p class="subhead">
+          Desenvolvimento de ferramentas de cálculo estrutural e térmico, plataformas de laudo pericial com fé pública e simuladores 3D em vista explodida acoplados a modelos físicos reais.
+        </p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a href="#laboratorio-3d" class="btn btn-primary">Testar Simuladores 3D ao Vivo</a>
+          <a href="mailto:lucasantannaeng@gmail.com" class="btn" style="height:44px;padding:0 20px">Contato Técnico / ART</a>
+        </div>
+      </div>
+
+      <div class="cred-card">
+        <div style="font-size:14px;font-weight:500;margin-bottom:12px;color:var(--fg)">Credenciais Profissionais e Habilitação Legal</div>
+        <div class="cred-row"><span>Formação Acadêmica</span><span class="mono">Engenharia Mecânica · IFF Cabo Frio</span></div>
+        <div class="cred-row"><span>Registro CREA-RJ</span><span class="mono">2026104562 (Ativo)</span></div>
+        <div class="cred-row"><span>Registro Nacional (RNP)</span><span class="mono">2024137695</span></div>
+        <div class="cred-row"><span>Atribuições Legais</span><span class="mono">Res. CONFEA 218/1973 (Art. 12) & 1.073/2016</span></div>
+        <div class="cred-row"><span>Escopo Pericial e Técnico</span><span class="mono">NBR 13752 · NBR 16401 · NBR 6123 · NR-12</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="laboratorio-3d">
+      <div class="section-head">
+        <div>
+          <h2>Laboratório 3D Interativo em Vista Explodida (Three.js / Teardown)</h2>
+          <p>
+            Simuladores 3D standalone que desmontam máquinas, sistemas de climatização e estruturas fotovoltaicas peça por peça com telemetria física em tempo real.
+          </p>
+        </div>
+        <a id="sim-fullscreen-link" href="simulators/forensic-teardown.html?mode=mechanical" target="_blank" rel="noreferrer" class="btn">
+          Abrir Simulador em Nova Aba
+        </a>
+      </div>
+
+      <div class="sim-tabs">
+        <button class="btn active" data-src="simulators/forensic-teardown.html?mode=mechanical">
+          1. Perícia Mecânica NBR 13752 (Polia, Rolamento 6204 e Cabo 6x19)
+        </button>
+        <button class="btn" data-src="simulators/hvac-pmoc-teardown.html">
+          2. Climatização HVAC & PMOC NBR 16401 (UTA, Serpentina e Scroll)
+        </button>
+        <button class="btn" data-src="simulators/solar-structural-teardown.html">
+          3. Estrutura Fotovoltaica & Vento NBR 6123 (Trilho 6063-T5 e Terça U)
+        </button>
+        <button class="btn" data-src="simulators/forensic-teardown.html?mode=electrical">
+          4. Perícia Eletromecânica NBR 5410 (Disjuntor, Barramento e Ponto Quente)
+        </button>
+      </div>
+
+      <div class="sim-box">
+        <iframe
+          id="portfolio-sim-frame"
+          src="simulators/forensic-teardown.html?mode=mechanical"
+          title="Laboratório 3D de Engenharia Mecânica"
+          class="sim-iframe"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="section-head">
+        <div>
+          <h2>Sistemas Autorais de Engenharia e Automação Normativa</h2>
+          <p>Aplicações desenvolvidas em TypeScript, Python, React e Three.js com validação automatizada.</p>
+        </div>
+      </div>
+
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>Sistema / Repositório</th>
+            <th>Domínio Normativo</th>
+            <th>Problema de Engenharia Resolvido</th>
+            <th class="num">Impacto / Métrica</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>SolarCad & Solar Structural Calc</strong></td>
+            <td class="mono">NBR 16690 · NBR 6123 · NBR 14762</td>
+            <td>CAD unifilar/trifilar, verificação estrutural de terças metálicas ao vento e formulários de homologação GD (Light, Enel, Energisa, CERCI).</td>
+            <td class="num mono">14 min / projeto (-76% vs 60 min)</td>
+          </tr>
+          <tr>
+            <td><strong>ThermalLoadCalculator & PMOC Service</strong></td>
+            <td class="mono">NBR 16401 · ASHRAE · Lei 13.589</td>
+            <td>Balanço térmico 24h por zona bioclimática, cálculo de renovação de ar por tipologia e plano de manutenção PMOC com simulador 3D explodido.</td>
+            <td class="num mono">COP & ΔP em tempo real</td>
+          </tr>
+          <tr>
+            <td><strong>Laudo Manutenção Academia & Forensics</strong></td>
+            <td class="mono">NBR 13752 · NR-12 · ISO 20957</td>
+            <td>Emissão de laudos periciais com assinatura criptográfica SHA-256, análise oscilográfica IEEE C37.111 e vista explodida 3D do ponto de falha.</td>
+            <td class="num mono">Fé pública CREA-RJ + 3D</td>
+          </tr>
+          <tr>
+            <td><strong>SolarBoat Telemetry</strong></td>
+            <td class="mono">TCC Eng. Mecânica · ESP32 / C++</td>
+            <td>Mitigação hidrodinâmica de sloshing e automação de esgotamento de porão com sensoriamento ultrassônico embarcado.</td>
+            <td class="num mono">Filtro digital embarcado</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <div>Luca Rodrigues Gomes de Sant'Anna · Engenheiro Mecânico · CREA-RJ 2026104562</div>
+    <div class="mono">lucasantannaeng@gmail.com · Rio de Janeiro, RJ</div>
+  </footer>
+
+  <script>
+    const frame = document.getElementById('portfolio-sim-frame');
+    const link = document.getElementById('sim-fullscreen-link');
+    document.querySelectorAll('.sim-tabs .btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.sim-tabs .btn').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        const src = btn.getAttribute('data-src');
+        frame.src = src;
+        link.href = src;
+      });
+    });
+  </script>
+</body>
+</html>
