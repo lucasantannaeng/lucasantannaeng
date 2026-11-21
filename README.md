@@ -77,11 +77,11 @@ Interactive 3D Exploded-View Engineering Simulators (Three.js) and production so
 ## Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Pushed [`6d28240`](https://github.com/lucasantannaeng/lucasantannaeng/commit/6d282400b7906fc92992e86648545848c326a704) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: integrate interactive 3D engineering simulators int...*
-2. 🔨 Pushed [`49265d7`](https://github.com/lucasantannaeng/SolarCad/commit/49265d79dccf22093cef4884c699cbb2c607defd) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *feat(showcase): add 50s executive demonstration video and...*
-3. 🔨 Pushed [`a7f734e`](https://github.com/lucasantannaeng/FinMaster/commit/a7f734efa7384536253f996dc9668030196c93ce) to [lucasantannaeng/FinMaster](https://github.com/lucasantannaeng/FinMaster) - *chore: update vite resolve aliases and ignore codebase-me...*
-4. 🔨 Pushed [`a46b2b0`](https://github.com/lucasantannaeng/lucasantannaeng/commit/a46b2b0aeccb9a6b5256f702551da30732345755) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: correct SolarCad preparation time per client*
-5. 🔨 Pushed [`fb1b270`](https://github.com/lucasantannaeng/electrical-forensics-platform/commit/fb1b270060d16eaef2248239c0216a8bdbe30084) to [lucasantannaeng/electrical-forensics-platform](https://github.com/lucasantannaeng/electrical-forensics-platform) - *chore: ignore codebase-memory directory*
+1. 🔨 Pushed [`7ebf838`](https://github.com/lucasantannaeng/white-label-crm/commit/7ebf838f70edffdaccb5da570bdea8483920bc01) to [lucasantannaeng/white-label-crm](https://github.com/lucasantannaeng/white-label-crm) - *fix(compliance): resolve telemetry consent events, protot...*
+2. 🔨 Pushed [`6d28240`](https://github.com/lucasantannaeng/lucasantannaeng/commit/6d282400b7906fc92992e86648545848c326a704) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: integrate interactive 3D engineering simulators int...*
+3. 🔨 Pushed [`49265d7`](https://github.com/lucasantannaeng/SolarCad/commit/49265d79dccf22093cef4884c699cbb2c607defd) to [lucasantannaeng/SolarCad](https://github.com/lucasantannaeng/SolarCad) - *feat(showcase): add 50s executive demonstration video and...*
+4. 🔨 Pushed [`a7f734e`](https://github.com/lucasantannaeng/FinMaster/commit/a7f734efa7384536253f996dc9668030196c93ce) to [lucasantannaeng/FinMaster](https://github.com/lucasantannaeng/FinMaster) - *chore: update vite resolve aliases and ignore codebase-me...*
+5. 🔨 Pushed [`a46b2b0`](https://github.com/lucasantannaeng/lucasantannaeng/commit/a46b2b0aeccb9a6b5256f702551da30732345755) to [lucasantannaeng/lucasantannaeng](https://github.com/lucasantannaeng/lucasantannaeng) - *docs: correct SolarCad preparation time per client*
 <!--END_SECTION:activity-->
 
 ---
